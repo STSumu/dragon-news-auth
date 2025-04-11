@@ -9,7 +9,7 @@ const LeftNavbar = () => {
         .then(data=>setCategories(data.data.news_category
         ));
     },[])
-    console.log(categories)
+    //console.log(categories)
     return (
         <div>
             <h1 className='font-semibold mb-5 text-[#403F3F]'>All Category</h1>
